@@ -5,10 +5,9 @@
 **/
 (function (jQuery) {
   'use strict';
-  /*
-   *
+
+  /**
    * Logic for expanding/collapsing fields that configured with a toggle.
-   *
    */
   Drupal.behaviors.expandingFormatter = {
     attach: function (context, settings) {
@@ -23,6 +22,7 @@
           jQuerycontent.hide();
         }
         else {
+
           // Get normal expanded height.
           data.expandedHeight = jQueryformatter.outerHeight(false);
           jQuerycontent.hide();
@@ -40,19 +40,22 @@
         });
         jQuerytrigger.bind('click', function () {
           data.expanded = jQueryformatter.hasClass('expanded');
+
           // Non-CSS and CSS effects.
           if (typeof Drupal.expandingFormatterEffects[data.effect] !== 'undefined') {
             // Use CSS3 if applicable.
             if (data.css3 && typeof Drupal.expandingFormatterEffects[data.effect + 'Css'] !== 'undefined') {
               Drupal.expandingFormatterEffects[data.effect + 'Css'](data);
             }
-            // Otherwise use non-CSS effect.
             else {
-              Drupal.expandingFormatterEffects[data.effect](data);
+
+              // Otherwise use non-CSS effect.
+              Drupal.expandingFormatterEffects[data.effect](data);  // Otherwise use non-CSS effect.
             }
           }
-          // CSS3 effects.
           else if (data.css3 && typeof Drupal.expandingFormatterEffects[data.effect + 'Css'] !== 'undefined') {
+
+            // CSS3 effects.
             Drupal.expandingFormatterEffects[data.effect + 'Css'](data);
           }
           // Error.
@@ -209,17 +212,20 @@
       }
     },
     slideCss: function (data) {
+
       // Add/remove animation classes to assist with styles.
       data.jQueryformatter.addClass('sliding');
       setTimeout(function () {
         data.jQueryformatter.removeClass('sliding');
       }, 500);
+
       // Collapse.
       if (data.expanded) {
         Drupal.expandingFormatterEffects.collapseCss(data);
       }
-      // Expand.
       else {
+
+        // Expand.
         Drupal.expandingFormatterEffects.expandCss(data);
       }
     }
