@@ -1,6 +1,10 @@
-/*global Drupal:true */
+/*
+*
+*global Drupal:true
+*
+**/
 (function (jQuery) {
-
+  'use strict';
   /**
    * Logic for expanding/collapsing fields that configured with a toggle.
    */
