@@ -4,6 +4,6 @@ core: 8.x
 type: module
 
 dependencies:
-  - field
+  - drupal:field
 
 
