@@ -5,8 +5,10 @@
 **/
 (function (jQuery) {
   'use strict';
-  /**
+  /*
+   *
    * Logic for expanding/collapsing fields that configured with a toggle.
+   *
    */
   Drupal.behaviors.expandingFormatter = {
     attach: function (context, settings) {
