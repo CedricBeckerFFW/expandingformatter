@@ -9,5 +9,15 @@
  * Implements hook_theme().
  */
 function expand_formatter_theme($existing, $type, $theme, $path) {
-  return array('expandformatter' => array('variables' => array('attributes' => array(), 'ellipsis' => '…', 'contentdata' => Null, 'summarydata' => Null, 'triggerclass'=> Null,),),);
+
+  return array('expandformatter' => array(
+    'variables' => array(
+      'attributes' => array(),
+      'ellipsis' => '…',
+      'contentdata' => Null,
+	  'summarydata' => Null,
+	  'triggerclass'=> Null,
+    ),
+   ),
+  );
 }
