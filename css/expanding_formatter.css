@@ -27,7 +27,10 @@
 .expanding-formatter .expanding-formatter-ellipsis {
   margin-right: .25em;
 }
-.expanding-formatter[data-css3="1"].collapsed.sliding .expanding-formatter-ellipsis, .expanding-formatter[data-css3="1"].collapsed[data-effect="slide"]:not(.sliding) .expanding-formatter-content {
+.expanding-formatter[data-css3="1"].collapsed.sliding .expanding-formatter-ellipsis{
+  display: none;
+}
+.expanding-formatter[data-css3="1"].collapsed[data-effect="slide"]:not(.sliding) .expanding-formatter-content{
   display: none;
 }
 .expanding-formatter[data-css3="1"].collapsed .trigger {
@@ -74,7 +77,11 @@
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-.expanding-formatter[data-css3="1"][data-effect="fade"].collapsed.fading .expanding-formatter-content, .expanding-formatter[data-css3="1"][data-effect="fade"].collapsed.fading .expanding-formatter-trigger {
+.expanding-formatter[data-css3="1"][data-effect="fade"].collapsed.fading .expanding-formatter-content{
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+.expanding-formatter[data-css3="1"][data-effect="fade"].collapsed.fading .expanding-formatter-trigger{
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
@@ -83,7 +90,11 @@
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-.expanding-formatter[data-css3="1"][data-effect="fade"].expanded.fading .expanding-formatter-content, .expanding-formatter[data-css3="1"][data-effect="fade"].expanded.fading .expanding-formatter-trigger {
+.expanding-formatter[data-css3="1"][data-effect="fade"].expanded.fading .expanding-formatter-content{
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+.expanding-formatter[data-css3="1"][data-effect="fade"].expanded.fading .expanding-formatter-trigger{
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
