@@ -10,14 +10,15 @@
  */
 function expand_formatter_theme($existing, $type, $theme, $path) {
 
-  return ['expandformatter' => [
-    'variables' => [
-      'attributes' => [],
-      'ellipsis' => '…',
-      'contentdata' => Null,
-	  'summarydata' => Null,
-	  'triggerclass'=> Null,
-    ],
-   ],
+  return [
+      'expandformatter' => [
+        'variables' => [
+          'attributes' => [],
+          'ellipsis' => '…',
+          'contentdata' => NULL,
+          'summarydata' => NULL,
+          'triggerclass'=> NULL,
+        ],
+      ],
   ];
 }
