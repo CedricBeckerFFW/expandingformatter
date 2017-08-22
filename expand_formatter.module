@@ -12,12 +12,12 @@ function expand_formatter_theme($existing, $type, $theme, $path) {
 
   return [
       'expandformatter' => [
-        'variables' => [
+          'variables' => [
           'attributes' => [],
           'ellipsis' => '…',
           'contentdata' => NULL,
           'summarydata' => NULL,
-          'triggerclass'=> NULL,
+          'triggerclass' => NULL,
         ],
       ],
   ];
