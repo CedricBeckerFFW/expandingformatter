@@ -1,1 +1,20 @@
-# expand_formatter
+INTRODUCTION
+------------
+ 
+This module provides a formatter for existing text, long text and text with summary widget types. This module allows you to change how the content is being display (formatted) by providing new format types:
+
+
+INSTALLATION
+------------
+
+Install as usual, see
+ https://www.drupal.org/docs/8/extending-drupal-8/installing-contributed-modules-find-import-enable-configure-drupal-8 for further
+information.
+
+
+MAINTAINERS
+-----------
+
+Current maintainers:
+
+ * Md Meraj Ahmed (https://www.drupal.org/user/3503902/)
