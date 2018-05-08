@@ -20,3 +20,10 @@ Current maintainers:
 
  * Md Meraj Ahmed (https://www.drupal.org/user/3503902/)
  
+REQUIREMENTS
+------------
+
+
+CONFIGURATION
+------------- 
+ 
