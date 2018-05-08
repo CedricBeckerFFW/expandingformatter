@@ -29,16 +29,16 @@ class ExpandFormatter extends FormatterBase
     {
 
         return [
-            'trim_length' => 200,
-            'trim_ellipsis' => TRUE,
-            'effect' => 'slide',
-            'trigger_expanded_label' => t('Expand'),
-            'trigger_collapsed_label' => '',
-            'trigger_classes' => 'button',
-            'inline' => TRUE,
-            'css3' => TRUE,
-            'js_duration' => 500,
-        ] + parent::defaultSettings();
+                'trim_length' => 200,
+                'trim_ellipsis' => TRUE,
+                'effect' => 'slide',
+                'trigger_expanded_label' => t('Expand'),
+                'trigger_collapsed_label' => '',
+                'trigger_classes' => 'button',
+                'inline' => TRUE,
+                'css3' => TRUE,
+                'js_duration' => 500,
+            ] + parent::defaultSettings();
     }
 
     /**
