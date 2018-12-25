@@ -26,4 +26,3 @@ REQUIREMENTS
 
 CONFIGURATION
 ------------- 
- 
