@@ -26,3 +26,7 @@ REQUIREMENTS
 
 CONFIGURATION
 ------------- 
+
+Go to your content type's display. You will see fields (like body).
+that you now have the ability to choose what is being displayed (probably default). 
+You can now choose "Expand Formatter", which will also give you options on the right to configure.
