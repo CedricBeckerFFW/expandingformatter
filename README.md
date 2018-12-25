@@ -1,7 +1,7 @@
 INTRODUCTION
 ------------
  
-This module provides a formatter for existing text, long text and text with summary widget types. 
+This module provides a formatter for existing text field. 
 This module allows you to change how the content is being display.
 And (formatted) by providing new format types.
 
