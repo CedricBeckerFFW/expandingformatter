@@ -2,9 +2,9 @@ expformet:
   version: 1.x
   css:
     theme:
-      css/expanding_formatter.css: {}
+      css/expandingformatter.css: {}
   js:
-    js/expanding_formatter.js: {}
+    js/expandingformatter.js: {}
   dependencies:
     - core/jquery
     - core/drupal

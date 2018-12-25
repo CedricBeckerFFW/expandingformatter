@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\expand_formatter\Plugin\Field\FieldFormatter;
+namespace Drupal\expandingformatter\Plugin\Field\FieldFormatter;
 
 use Drupal\Core\Field\FormatterBase;
 use Drupal\Core\Field\FieldItemListInterface;
@@ -19,7 +19,7 @@ use Drupal\Core\Form\FormStateInterface;
  *   },
  * )
  */
-class ExpandFormatter extends FormatterBase
+class ExpandingFormatter extends FormatterBase
 {
 
     /**
@@ -210,13 +210,13 @@ class ExpandFormatter extends FormatterBase
             }
 
             $elements[$delta] = [
-                '#theme' => 'expandformatter',
+                '#theme' => 'expandingformatter',
                 '#attributes' => $attributes,
                 '#contentdata' => $original,
                 '#summarydata' => $summary_content,
                 '#triggerclass' => $trigger_class,
                 '#attached' => [
-                    'library' => ['expand_formatter/expformet']
+                    'library' => ['expandingformatter/expformet']
                 ],
             ];
 

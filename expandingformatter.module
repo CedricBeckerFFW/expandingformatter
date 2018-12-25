@@ -8,11 +8,11 @@
 /**
  * Implements hook_theme().
  */
-function expand_formatter_theme($existing, $type, $theme, $path)
+function expandingformatter_theme($existing, $type, $theme, $path)
 {
 
     return [
-        'expandformatter' => [
+        'expandingformatter' => [
             'variables' => [
                 'attributes' => [],
                 'ellipsis' => '…',
@@ -29,7 +29,7 @@ function expand_formatter_theme($existing, $type, $theme, $path)
  *
  * @inheritdoc
  */
-function expand_formatter_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match)
+function expandingformatter_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match)
 {
     switch ($route_name) {
         case 'help.page.expand_formatter':
