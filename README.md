@@ -2,7 +2,8 @@ INTRODUCTION
 ------------
  
 This module provides a formatter for existing text, long text and text with summary widget types. 
-This module allows you to change how the content is being display (formatted) by providing new format types:
+This module allows you to change how the content is being display.
+And (formatted) by providing new format types.
 
 
 INSTALLATION
@@ -28,5 +29,6 @@ CONFIGURATION
 ------------- 
 
 Go to your content type's display. You will see fields (like body).
-that you now have the ability to choose what is being displayed (probably default). 
-You can now choose "Expand Formatter", which will also give you options on the right to configure.
+that you now have the ability to choose what is being displayed. 
+You can now choose "Expand Formatter".
+which will also give you options on the right to configure.

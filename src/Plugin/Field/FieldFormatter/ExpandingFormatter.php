@@ -7,7 +7,7 @@ use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\Core\Form\FormStateInterface;
 
 /**
- * Plugin implementation of the 'Expand' formatter
+ * Plugin implementation of the 'Expand' formatter.
  *
  * @FieldFormatter(
  *   id = "Expand",
